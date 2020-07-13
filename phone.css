@@ -1,0 +1,100 @@
+/*style for all*/
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+/*style for header or nav*/
+#navigation{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#navigation ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+#navigation ul li a{
+	font-size: 1.4rem;
+}
+#navigation ul li a:hover{
+	font-size: 1.4rem;
+	}
+
+#home .primary-heading{
+	font-size:2rem;
+}
+#home .first-para{ 
+	font-size:1.4rem;
+} 
+
+/*style for services*/
+.ourservices h1{
+	text-align: center;
+	font-size: 1.8rem;
+}
+.box{
+	flex-direction: column;
+}
+.box #content{
+	display: flex;
+	justify-content: center;
+
+}
+.box #content img{
+	padding:0px;
+	width:20%;
+	margin: auto;
+}
+/*style for contact us*/
+.contact-us h2{
+	font-size: 1.7rem;
+}
+#form .name{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#form{
+	border: 3px solid black;
+	display: flex;
+	background: white;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#form .name input {
+    color: blue;
+    font-size: 1px;
+}
+#form .btn{
+margin:25%;
+width: auto;
+/*margin: 20px 120px;*/
+border-radius: 90px;
+display: "none";
+background-color: black;
+font-size: 1.3rem;
+font-family: 'Roboto Mono', monospace;
+color: white;
+}
+#form .btn:hover{
+margin:25%;
+width: auto;
+/*margin: 20px 120px;*/
+border-radius: 90px;
+cursor: pointer;
+background-color: #ffffffc7;
+font-size: 1.3rem;
+font-family: 'Roboto Mono', monospace;
+box-shadow: 2px 4px 30px #ffe514;
+color: black;
+
+}
+#form .btn:hover:after{
+content: ">>";
+}
